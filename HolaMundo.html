@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- JavaScript -->
+   <!-- JavaScript -->
+
+   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+<!-- Default theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+<!-- Semantic UI theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+<!-- Bootstrap theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+<link rel="stylesheet" href="Style.css">
+	<title>Prueba Unica</title>
+  
+</head>
+<body>
+    <p class="estilo">Hola mi nombre es Saul Julio Teran</p>
+    <p>Vivo en Rio en Medio</p>
+        <div class="alinear">
+        <label for="nombre">Ingresa tu nombre:</label>
+        <input type="text" class="form" id="nombre" placeholder="Nombre">
+        <button class="btn btn-rosado" onclick="miFunction()">Saludar</button>
+    </div>
+    <script>
+        function miFunction(){
+           let name= document.getElementById('nombre').value;
+           alertify.confirm("Hola "+ name +" Es un placer saludate")
+        }
+    </script>
+</body>
+</html>
