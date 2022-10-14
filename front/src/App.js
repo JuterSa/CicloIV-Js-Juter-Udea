@@ -1,16 +1,18 @@
 
 import './App.css';
 import React from 'react';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1>Tienda de mascotas Juter Shop</h1>
-      <img src="./images/buldog.png" className="App-logo" alt="logo" />
-    
-      </header>
+     <Header/>
+     <br></br>
+      <div className='alert alert-success'>Bienvenido perro JAJAJA</div>
+     
+     <Footer/>
     </div>
   );
 }
