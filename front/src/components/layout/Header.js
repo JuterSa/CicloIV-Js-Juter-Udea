@@ -21,11 +21,12 @@ const Header = () => {
                   </div>
             </div>
           </div>
-          <div class='col-12 col-md-3 mt-4 mt-md-0'>
-            <button className='btn btn-dark' id="login-btn">Ingrese</button>
-            <span id="cart" className='ml-3'>Carrito</span>
-            <span className="ml-1" id="cart_count">99+</span>
-
+          <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
+                    <span><button className='btn' id="login_btn">Inicie Sesión</button></span>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <i class="bi bi-cart-plus text-white"></i>
+                    
+                    <span className="ml-1" id="cart_count">0</span>
           </div>
         </nav>
     </Fragment>
