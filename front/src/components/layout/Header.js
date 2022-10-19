@@ -15,9 +15,9 @@ const Header = () => {
             <div class='input-group'>
                   <input type="text" class='form-control' placeholder='Que producto busca?'></input>
                   <div class="input-group-append">
-                     <button id='search-btn' class="btn">
-                      <i class="fa fa fa" aria-hidden="true"></i>
-                     </button>
+                  <button id="search-btn" class="btn">
+                        <i class="fa fa-search-plus fa-2x text-white" aria-hidden="true"></i>
+                    </button>
                   </div>
             </div>
           </div>
