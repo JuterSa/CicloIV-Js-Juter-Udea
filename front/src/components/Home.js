@@ -12,11 +12,11 @@ export const Home = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         if (error){
-            return alert.error(error)
+            return alert.error("Error-Sa")
         }
 
         dispatch(getProducts());
-        alert.success("OK")
+        alert.success("OK-Juter")
     }, [dispatch])
 
     return (
