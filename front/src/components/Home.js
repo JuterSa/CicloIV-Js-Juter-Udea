@@ -12,7 +12,7 @@ export const Home = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         if (error){
-            return alert.error("Error-Sa")
+            return alert.error("Por favor revice que haiga datos")
         }
 
         dispatch(getProducts());
